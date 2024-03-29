@@ -1,0 +1,354 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background: #FFFFFF;
+    padding: 125px;
+    padding-top: 0px;
+}
+
+.picture {
+    width:1150px;
+    height:500px;
+    background-image:url("../resources/Rectangle1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    margin-bottom: 150px; 
+    position: relative;
+    
+}
+.picture-text {
+    width: 470px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.5px;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+
+}
+
+.header {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    margin-bottom: 30px;
+}
+
+.o-nas{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.about123 {
+    width: 1048px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.35px;
+        
+}
+
+.yslugi {
+    display: block;
+    width: 255px;
+    height: 67px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #ad1818;
+    text-align: center;
+    line-height: 67px;
+    text-decoration: none;
+    margin-bottom: 150px;
+    letter-spacing: -0.6px;
+    cursor: pointer;
+}
+
+.projects {
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.project__1 {
+    width: 1150px;
+    height: 548px;
+    margin-bottom: 90px;    
+}
+
+.project__1__name{
+    font-size: 30px;
+    margin-top: 15px;
+    color: #121212;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    margin-bottom: 15px;
+}
+
+.project__1__details {
+    color:#AD1818;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+}
+
+.projects__btn {
+    display: block;
+    text-align: center;
+    font-family: Manrope;
+    width: 100%;
+    height: 153px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.9px;
+    border-radius: 5px;
+    border: 1px solid #AD1818;
+    background-color: #FFF;
+    color:#AD1818;
+    cursor: pointer;
+    
+}
+
+.projects__btn:hover {
+    background-color: #AD1818;
+    color: #FFF;
+}
+
+.container2 {
+    margin: 0 auto;
+    height: 1844px;
+    width: 1400px;
+    background: #121212;
+}
+
+.yslygi2 {
+    color: #FFF;
+    padding-top: 151px;
+    padding-left: 127px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    margin-bottom: 34px;
+}
+
+.yslygi__container__1 {
+    width: 1150px;
+    height: 326px;
+    margin-top: 34px;
+    padding-left: 125px;
+    padding-bottom: 60px;
+}
+
+.yslygi__container__1__text {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.9px;
+    padding-top: 15px;
+}
+
+.picture__2 {
+    width: 1400px;
+    height:717px;
+    background-image:url("../resources/Rectangle\ 10.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    position: relative;
+    margin-bottom: 150px; 
+
+    
+}
+.picture-text__2 {
+    width: 443px;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    color: #FFF;
+    position: absolute;
+    bottom: 60px;
+    left: 125px;
+}
+
+.info {
+    margin-left: 124px;
+    margin-bottom: 150px;
+}
+
+.contacts {   
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    position: relative;
+}
+
+.tel {
+    margin-top: 32px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+}
+
+.tel__2 {
+    text-decoration: none;
+    color: #121212;
+}
+
+.email {
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;  
+}
+
+.email__2{
+    color: grey;
+}
+
+.container3 {
+    width: 100%;
+    height: 229px;
+    background-color: #121212 ;
+}
+
+
+
+.nav-section{
+    min-width: 1150px;
+    margin: 0 auto;
+    padding-top: 33px;
+    padding-bottom: 70px;
+}
+
+.nav-container {
+    width: 1150px;
+}
+
+.logo-link {
+    display: inline-block;
+    margin-right: 480px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    display: block;
+}
+
+.nav__link {
+    display: inline-block;
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.contacts:before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 36px;
+    left: -4px;
+    background-image: url(/resources/ic_outline-phone-iphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+
+.nav-section2{
+    min-width: 1400px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 87px;
+
+}
+
+.nav-container__2{
+    width: 1400px;
+    padding-left: 470px;
+
+}
+
+.nav2 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav__link2 {
+    margin-right: 55px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.nav__link2:hover {
+    color: grey;
+}
+
+.intro {
+    margin-left: 509px;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: grey;
+
+
+}
