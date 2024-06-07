@@ -20,12 +20,14 @@
                 <a class="logo-link" href="/">
                     <img class="logo" src="resources/Метрика.png" alt="Логотип Метрика">
                 </a>
-                <!-- <div class="nav">
+                <div class="nav">
                     <a href="#o_nas" class="nav__link">о нас</a>
                     <a href="#projects" class="nav__link">проекты</a>
                     <a href="#yslygi" class="nav__link">услуги</a>
                     <a href="#contacts" class="nav__link">контакты</a>
-                </div> -->
+                </div>
+                <div class="burger-btn js-burger-btn">
+                </div>
             </div>
         </div>
         <div class="header">
@@ -155,7 +157,10 @@
                 <p class="popup__title">Заказать услугу</p>
                 <p class="popup__title-text">Заполните форму, мы свяжемся с вами в течение суток</p>
                 <div class="popup__close-btn js-popup__close-btn">
-                    <img src="resources/popup__close-btn.png" alt="popup__close-btn">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="resources/exit_mob.png">
+                        <img src="resources/popup__close-btn.png" alt="popup__close-btn">
+                    </picture>  
                 </div>
                 <div class="inputs">
                     <input class="input" type="text"
@@ -279,7 +284,30 @@
                 </p>
             </div>
     </div>
+    <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+            <div class="burger-logo">
+                <img src="resources/logo-burger.png" alt="burger-logo">
+            </div>
+            <div class="burger-nav">
+                <a href="#o_nas" class="nav__link-burger">о нас</a>
+                <a href="#projects" class="nav__link-burger">проекты</a>
+                <a href="#yslygi" class="nav__link-burger">услуги</a>
+                <a href="#contacts" class="nav__link-burger">контакты</a>
+            </div>
+            <div class="burger-contacts">
+                <p class="header-contacts">для связи:</p>
+                <div class="tel-burger">
+                    <a class="tel__2-burger" href="tel:+7 935 895-45-35">+7 935 895-45-35</a>
+                </div>
+                <div class="email-burger">
+                    <a class="email__2-burger" href="mailto:hello@mail.com">hello@mail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="gallery.js"></script>  
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
 </body>
 </html>
