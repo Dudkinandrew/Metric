@@ -75,15 +75,21 @@ body {
 .burger_open {
     opacity: 1;
     visibility: visible;
-    transition: all 0.2s ease;
+    transition: translateX(0);
 }
 
 .burger__content {
-  width: 73%;
+  width: 275px;
   height: 100%;
   background-color: #FFFFFF;
   padding-left: 30px;
   padding-top: 80px;
+  transition: transform 0.3s linear;
+  transform: translateX(100%);
+}
+
+.burger_open .burger__content{
+  transform: translateX(0);
 }
 
 .burger-logo {
@@ -329,7 +335,8 @@ body {
   position: relative;
   width: 777px;
   height: 708px;
-  /* max-height: 100%; */
+  max-width: 100%;
+  overflow-y: auto;
   background-color:#FFFFFF;
   border-radius: 10px;
   padding-left: 55px;
