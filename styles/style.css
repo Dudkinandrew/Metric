@@ -84,6 +84,7 @@ body {
   background-color: #FFFFFF;
   padding-left: 30px;
   padding-top: 80px;
+  overflow-y: auto;
   transition: transform 0.3s linear;
   transform: translateX(100%);
 }
